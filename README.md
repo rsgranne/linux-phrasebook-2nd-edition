@@ -81,7 +81,7 @@ Intro
 
 - Run Several Commands Sequentially	`;`
 - Run Commands Only If the Previous Ones Succeed `&&`
-- Run a Command Only If the Previous One Fails `[ ]`
+- Run a Command Only If the Previous One Fails `||`
 - Plug the Output of a Command into Another Command `$()`
 - Understand Input/Output Streams
 - Use the Output of One Command As Input for Another `|`
