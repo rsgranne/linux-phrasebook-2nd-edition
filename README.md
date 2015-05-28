@@ -57,8 +57,8 @@ Intro
 - Become root `su`
 - Become root, with Its Environment Variables `su -`
 - REMOVED
-	- Find Out What mkdir Is Doing As It Acts `mkdir -v`
-	- Remove Files Verbosely `rm -v`
+	+ Find Out What mkdir Is Doing As It Acts `mkdir -v`
+	+ Remove Files Verbosely `rm -v`
 
 3 Learning About Commands
 
@@ -72,10 +72,10 @@ Intro
 - Find Out Which Version of a Command Will Run `which`
 - Discover How a Command Will Be Interpreted `type`
 - REMOVED
-	- Rebuild man's Database of Commands `man -u`
-	- Print man Pages `man -t`
-	- Read Descriptions of Commands `whatis`
-	- Find a Command Based on What It Does `apropos`
+	+ Rebuild man's Database of Commands `man -u`
+	+ Print man Pages `man -t`
+	+ Read Descriptions of Commands `whatis`
+	+ Find a Command Based on What It Does `apropos`
 
 4 Building Blocks
 
@@ -264,9 +264,9 @@ REMOVED 6 Printing and Managing Print Jobs
 - View the Status of Your Network Interfaces `fconfig`
 - Show All Open Network Connections `lsof -i`
 - Verify That a Computer Is Running and Accepting Requests `ping, ping -c`
-	- Also `ping -n`
+	+ Also `ping -n`
 - Trace the Route Packets Take Between Two Hosts `traceroute`
-	- Also `traceroute -n`
+	+ Also `traceroute -n`
 - Perform Simple DNS Lookups `host`
 - Perform Complex DNS Lookups `dig`
 - Configure a Network Interface `ifconfig`
@@ -300,7 +300,8 @@ REMOVED 6 Printing and Managing Print Jobs
 - Query and Map NetBIOS Names and IP Addresses `nmblookup -T`
 - List a Machine's Samba Shares `smbclient`
 - Access Samba Resources with an FTP-Like Client `smbclient`
-- Mount a Samba Filesystem `smbmount` & `smbumount`
+- Mount a Samba Filesystem `mount -t cifs` & `umount -t cifs`
+	+ Also `smbmount` & `smbumount`
 
 17 Basic Shell Scripting
 
