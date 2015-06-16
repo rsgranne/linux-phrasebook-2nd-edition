@@ -214,6 +214,7 @@ REMOVED 6 Printing and Managing Print Jobs
 - Run the Last Command Again `!!`
 - Run a Previous Command Using Numbers `![##]`
 - Run a Previous Command Using a String `![string]`
+- Run a Command Using the End Word of the Previous Command `!$`
 - Display All Command Aliases `alias`
 - View a Specific Command Alias `alias [alias name]`
 - Create a New Temporary Alias `alias [alias]='[command]'`
@@ -261,7 +262,7 @@ REMOVED 6 Printing and Managing Print Jobs
 
 14 Connectivity
 
-- View the Status of Your Network Interfaces `fconfig`
+- View the Status of Your Network Interfaces `ifconfig`
 - Show All Open Network Connections `lsof -i`
 - Verify That a Computer Is Running and Accepting Requests `ping, ping -c`
 	+ Also `ping -n`
