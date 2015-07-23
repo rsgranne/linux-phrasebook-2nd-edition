@@ -202,7 +202,7 @@ REMOVED 6 Printing and Managing Print Jobs
 - Show Results If Either Expression Is True (OR) `find -o`
 - Show Results If the Expression Is Not True (NOT) `find -n`
 - Execute a Command on Every Found File	`find -exec`
-- Execute a Command on Found Files More Efficiently	`find +` & `find | xargs`
+- Execute a Command on Found Files More Efficiently `find +` & `find | xargs`
 - Execute a Command on Found Files Containing Spaces `find -print0`
 - REMOVED
 	+ Find Files by Group Ownership	`find -group`
@@ -220,7 +220,7 @@ REMOVED 6 Printing and Managing Print Jobs
 - Create a New Temporary Alias `alias [alias]='[command]'`
 - Create a New Permanent Alias `alias [alias name]='[command]'`
 - Remove an Alias `unalias`
-- Create a Function `[function name] ()`
+- Create a Function `[function name] ()` or `function [function name]`
 
 12 Monitoring System Resources
 
