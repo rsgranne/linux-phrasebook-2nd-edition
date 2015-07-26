@@ -214,7 +214,7 @@ REMOVED 6 Printing and Managing Print Jobs
 - Run the Last Command Again `!!`
 - Run a Previous Command Using Numbers `![##]`
 - Run a Previous Command Using a String `![string]`
-- Run a Command Using the End Word of the Previous Command `!$`
+- Search for a Previous Command and Run It `^-r`
 - Display All Command Aliases `alias`
 - View a Specific Command Alias `alias [alias name]`
 - Create a New Temporary Alias `alias [alias]='[command]'`
