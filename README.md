@@ -220,7 +220,11 @@ REMOVED 6 Printing and Managing Print Jobs
 - Create a New Temporary Alias `alias [alias]='[command]'`
 - Create a New Permanent Alias `alias [alias name]='[command]'`
 - Remove an Alias `unalias`
-- Create a Function `[function name] ()` or `function [function name]`
+- Create a New Temporary Function `[function name] ()` or `function [function name]`
+- Create a New Permanent Function `[function name] ()` or `function [function name]`
+- Display All Functions 
+- Remove a Function `unset -f [function name]`
+- When to Use an Alias and When to Use a Function
 
 12 Monitoring System Resources
 
