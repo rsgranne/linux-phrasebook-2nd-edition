@@ -299,16 +299,7 @@ REMOVED 6 Printing and Managing Print Jobs
 - Download Sequential Files and Internet Resources `curl`
 - Cruise the Web With a Text-Based Web Browser	`w3m`, `lynx`, & `elinks`
 
-16 Windows Networking
-
-- Discover the Workgroup's Master Browsers `nmblookup -M, -S, -A`
-- Query and Map NetBIOS Names and IP Addresses `nmblookup -T`
-- List a Machine's Samba Shares `smbclient`
-- Access Samba Resources with an FTP-Like Client `smbclient`
-- Mount a Samba Filesystem `mount -t cifs` & `umount -t cifs`
-	+ Also `smbmount` & `smbumount`
-
-17 Basic Shell Scripting
+16 Basic Shell Scripting
 
 - Send Text to STDOUT `echo`
 	+ Also `echo -e`
